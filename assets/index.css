@@ -93,9 +93,11 @@ table {
 	color: white;
 	text-decoration: none;
 	margin: 20px;
-	font-size: 20px;
+	font-size: 24px;
 	padding-bottom: 24px;
+	
 }
+
 .box{
 	display: flex;
     margin-top: 34px;
@@ -105,11 +107,7 @@ table {
 	flex: 0 1 23%;
 	position: fixed;
 	width: 100%;
-	max-width: 1000px;
-	
-	
-
-	
+	max-width: 1000px;	
 }
 .box a{
 	text-decoration: none;
@@ -117,6 +115,10 @@ table {
 	margin-left: 8px;
 	margin-right: 8px;
 	flex: 0 1 23%;
+}
+
+.left a:hover{
+	color: orangered;
 }
 .right{
 	display: flex;
@@ -166,11 +168,11 @@ table {
 	margin: 0 auto;
 	
 }
-/* section one*/
+/* section one our services and our Team*/
 .dots{
 	font-size: 14px;
 	text-align: center;
-	margin-top: 94px;
+	margin-top: 134px;
 }
 .dots a{
 	color: darkgray;
@@ -235,9 +237,6 @@ table {
 	justify-content: space-between;
 	align-items: center;
 	flex: 0 1 23%;
-	
-	
-	
 }
 .wrap{
 	flex-wrap: wrap;
@@ -282,8 +281,7 @@ table {
 	justify-content: space-between;
 	align-items: center;
 	margin-top: 30px;
-	flex: 0 1 23%;
-	
+	flex: 0 1 23%;	
 }
 .leftnew{
 	width: 60%;
@@ -327,6 +325,7 @@ table {
 	width: 100%;
 	margin-top: 30px;
 }
+
 .contact{
 	color: black;
 	padding: 7px;
@@ -351,7 +350,6 @@ table {
 	align-items: stretch;
 	margin-bottom: 80px;
 	flex: 0 1 38%;
-
 }
 /*footer*/
 .footer{
@@ -380,6 +378,7 @@ table {
 
 
 /*galary page*/
+/*left side*/
 .galarypage{
 	
 	justify-content: space-between;
@@ -419,7 +418,6 @@ table {
 	border-radius: 3px;
 }
 
-
 .lastheading{
 	
 	margin-top: 250px;
@@ -456,9 +454,7 @@ table {
 
 	/* flex-wrap: wrap; */
 	/* margin-top: 24px; */
-  
-   
-    	
+      	
 }
 .gallary-heading{
 	margin-left: 330px;
